@@ -1,3 +1,4 @@
-|بەرنامەیەک بنووسە کە گەڕانی هێڵی ئەنجام بدات|Kurdish|
+|بەرنامەیەک بنووسە کە گەڕانی هێڵی ئەنجام بدات|Kurdish(Sorani)|
+|Bernameyek ku lêgerînên xêzik dike binivîsin|kurdish(Kurmanj)|
 |برنامه ای بنویسید که جست و جوی خطی را  انجام دهد|Persian|
 |Write a program that performs line searches|English|
