@@ -9,4 +9,4 @@
 >>|Write a program that performs a binary search|English|
 ---------------------------------------------------------------------------------
 
->><img src="./algo-binary_search123.gif">
+>><img src="../linear-search/algo-binary_search123.gif">
