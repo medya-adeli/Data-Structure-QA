@@ -1,22 +1,34 @@
-public static object BinarySearchIterative(int[] inputArray, int key)  
-{ 
-  int min = 0;
-  int max = inputArray.Length - 1; 
-    while (min <=max)  
-    {  
-       int mid = (min + max) / 2;  
-       if (key == inputArray[mid])  
-       {  
-            return ++mid;  
-       }  
-       else if (key < inputArray[mid])  
-       {  
-           max = mid - 1;  
-       }  
-       else  
-       {  
-            min = mid + 1;  
-       }  
-   }  
-   return "Nil";  
+
+<?php
+  
+function binarySearch(Array $arr, $x)
+{
+    // check for empty array
+    if (count($arr) === 0) return false;
+    $low = 0;
+    $high = count($arr) - 1;
+      
+    while ($low <= $high) {
+          
+        // compute middle index
+        $mid = floor(($low + $high) / 2);
+   
+        // element found at mid
+        if($arr[$mid] == $x) {
+            return true;
+        }
+  
+        if ($x < $arr[$mid]) {
+            // search the left side of the array
+            $high = $mid -1;
+        }
+        else {
+            // search the right side of the array
+            $low = $mid + 1;
+        }
+    }
+      
+    // If we reach here element x doesnt exist
+    return false;
 }
+  ?>
